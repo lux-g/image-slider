@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "futuraPtMedium";
+    src: url(./FuturaPTMedium.otf);
+}
+:root {
+    --mediumFont: "futuraPtMedium"
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: var(--mediumFont);
+}
+.splide {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+.nav-container {
+    background-color: black;
+    color: white;
+}
+.nav {
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 28px;
+    letter-spacing: 1.2px;
+}
+.nav a:hover {
+    border-bottom: 2px solid #006FB9
+}
